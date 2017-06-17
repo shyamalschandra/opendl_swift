@@ -10,6 +10,16 @@
 		238EE9BF1EF5EEC600D7E4BE /* OpenDL_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 238EE9B51EF5EEC600D7E4BE /* OpenDL_Swift.framework */; };
 		238EE9C41EF5EEC600D7E4BE /* OpenDL_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238EE9C31EF5EEC600D7E4BE /* OpenDL_SwiftTests.swift */; };
 		238EE9C61EF5EEC600D7E4BE /* OpenDL_Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = 238EE9B81EF5EEC600D7E4BE /* OpenDL_Swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		238EE9D01EF5EFA600D7E4BE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238EE9CF1EF5EFA600D7E4BE /* main.swift */; };
+		238EE9D21EF5EFB600D7E4BE /* activations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238EE9D11EF5EFB600D7E4BE /* activations.swift */; };
+		238EE9D41EF5EFC100D7E4BE /* convolutions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238EE9D31EF5EFC100D7E4BE /* convolutions.swift */; };
+		238EE9D61EF5EFCE00D7E4BE /* feedforward.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238EE9D51EF5EFCE00D7E4BE /* feedforward.swift */; };
+		238EE9D81EF5EFD600D7E4BE /* graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238EE9D71EF5EFD600D7E4BE /* graph.swift */; };
+		238EE9DA1EF5EFE000D7E4BE /* losses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238EE9D91EF5EFE000D7E4BE /* losses.swift */; };
+		238EE9DC1EF5EFEC00D7E4BE /* recurrent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238EE9DB1EF5EFEC00D7E4BE /* recurrent.swift */; };
+		238EE9DE1EF5EFF800D7E4BE /* regularizers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238EE9DD1EF5EFF800D7E4BE /* regularizers.swift */; };
+		238EE9E01EF5F00000D7E4BE /* trainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238EE9DF1EF5F00000D7E4BE /* trainer.swift */; };
+		238EE9E21EF5F00800D7E4BE /* util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238EE9E11EF5F00800D7E4BE /* util.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +39,16 @@
 		238EE9BE1EF5EEC600D7E4BE /* OpenDL_SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenDL_SwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		238EE9C31EF5EEC600D7E4BE /* OpenDL_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenDL_SwiftTests.swift; sourceTree = "<group>"; };
 		238EE9C51EF5EEC600D7E4BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		238EE9CF1EF5EFA600D7E4BE /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		238EE9D11EF5EFB600D7E4BE /* activations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = activations.swift; sourceTree = "<group>"; };
+		238EE9D31EF5EFC100D7E4BE /* convolutions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = convolutions.swift; sourceTree = "<group>"; };
+		238EE9D51EF5EFCE00D7E4BE /* feedforward.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = feedforward.swift; sourceTree = "<group>"; };
+		238EE9D71EF5EFD600D7E4BE /* graph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = graph.swift; sourceTree = "<group>"; };
+		238EE9D91EF5EFE000D7E4BE /* losses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = losses.swift; sourceTree = "<group>"; };
+		238EE9DB1EF5EFEC00D7E4BE /* recurrent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = recurrent.swift; sourceTree = "<group>"; };
+		238EE9DD1EF5EFF800D7E4BE /* regularizers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = regularizers.swift; sourceTree = "<group>"; };
+		238EE9DF1EF5F00000D7E4BE /* trainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = trainer.swift; sourceTree = "<group>"; };
+		238EE9E11EF5F00800D7E4BE /* util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = util.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +93,16 @@
 			children = (
 				238EE9B81EF5EEC600D7E4BE /* OpenDL_Swift.h */,
 				238EE9B91EF5EEC600D7E4BE /* Info.plist */,
+				238EE9CF1EF5EFA600D7E4BE /* main.swift */,
+				238EE9D11EF5EFB600D7E4BE /* activations.swift */,
+				238EE9D31EF5EFC100D7E4BE /* convolutions.swift */,
+				238EE9D51EF5EFCE00D7E4BE /* feedforward.swift */,
+				238EE9D71EF5EFD600D7E4BE /* graph.swift */,
+				238EE9D91EF5EFE000D7E4BE /* losses.swift */,
+				238EE9DB1EF5EFEC00D7E4BE /* recurrent.swift */,
+				238EE9DD1EF5EFF800D7E4BE /* regularizers.swift */,
+				238EE9DF1EF5F00000D7E4BE /* trainer.swift */,
+				238EE9E11EF5F00800D7E4BE /* util.swift */,
 			);
 			path = OpenDL_Swift;
 			sourceTree = "<group>";
@@ -148,6 +178,7 @@
 				TargetAttributes = {
 					238EE9B41EF5EEC600D7E4BE = {
 						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					238EE9BD1EF5EEC600D7E4BE = {
@@ -196,6 +227,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				238EE9D01EF5EFA600D7E4BE /* main.swift in Sources */,
+				238EE9D61EF5EFCE00D7E4BE /* feedforward.swift in Sources */,
+				238EE9E01EF5F00000D7E4BE /* trainer.swift in Sources */,
+				238EE9E21EF5F00800D7E4BE /* util.swift in Sources */,
+				238EE9D41EF5EFC100D7E4BE /* convolutions.swift in Sources */,
+				238EE9DC1EF5EFEC00D7E4BE /* recurrent.swift in Sources */,
+				238EE9DE1EF5EFF800D7E4BE /* regularizers.swift in Sources */,
+				238EE9D21EF5EFB600D7E4BE /* activations.swift in Sources */,
+				238EE9DA1EF5EFE000D7E4BE /* losses.swift in Sources */,
+				238EE9D81EF5EFD600D7E4BE /* graph.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +360,7 @@
 		238EE9CA1EF5EEC600D7E4BE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -332,6 +374,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shyamalchandra.OpenDL-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -339,6 +382,7 @@
 		238EE9CB1EF5EEC600D7E4BE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -359,6 +403,7 @@
 		238EE9CD1EF5EEC600D7E4BE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = OpenDL_SwiftTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
@@ -371,6 +416,7 @@
 		238EE9CE1EF5EEC600D7E4BE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = OpenDL_SwiftTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
