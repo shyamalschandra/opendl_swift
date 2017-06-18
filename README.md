@@ -3,6 +3,8 @@
 Author: Shyamal Suhana Chandra
 Date Started: June 17, 2017
 
+![](OpenDL_logo.png)
+
 Purpose: To provide the latest and greatest models of deep learning with clear syntax, documentation, and comments in the code for quick usage.
 
 Time expected to completion: T.B.D.
